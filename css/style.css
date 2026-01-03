@@ -34,15 +34,13 @@ main {
 }
 
 .container {
-  max-width: 1100px;
-  /* This keeps the 1100px track but 'anchors' the rail to the left */
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 1.5rem;
   width: 100%;
 }
 
-/* Add this to force the content inside to the left edge of that rail */
 main.container {
   display: flex;
   flex-direction: column;
@@ -59,6 +57,7 @@ main.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
 }
 
 .logo {
@@ -169,8 +168,7 @@ main.container {
 
 /* Blog list */
 .blog-list {
-  max-width: 1100px;
-  text-align: left;
+  max-width: 1200px;
 }
 
 .blog-item {
@@ -193,6 +191,7 @@ main.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
 }
 
 .footer a {
