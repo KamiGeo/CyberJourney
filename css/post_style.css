@@ -1,0 +1,64 @@
+/* post.css */
+
+.post-container {
+  max-width: 720px; /* Narrower than the home page for readability */
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.post-header {
+  text-align: left;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 2rem;
+}
+
+.post-header h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.author-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #334155; /* Placeholder */
+}
+
+/* Typography for the actual article content */
+.post-content p {
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+  color: #cbd5e1; /* Slightly brighter than muted for reading */
+}
+
+.post-content h2 {
+  margin: 2.5rem 0 1rem;
+  color: var(--accent);
+}
+
+.lead {
+  font-size: 1.4rem !important;
+  font-weight: 300;
+  color: var(--text);
+}
+
+/* Code Snippet Styling - Vital for Cybersec blogs */
+.code-block {
+  background: #020617;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent);
+  font-family: 'Courier New', monospace;
+  margin: 2rem 0;
+  overflow-x: auto;
+}
